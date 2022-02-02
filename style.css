@@ -1,0 +1,19 @@
+html{
+   font-size: 100%large; 
+   box-sizing:content-box;
+   background-color: grey;
+}
+
+.box{
+    display: flex;
+    align-items: stretch;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+
+.box div {
+    text-align:center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}
